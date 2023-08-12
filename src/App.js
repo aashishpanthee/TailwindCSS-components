@@ -1,9 +1,11 @@
 import EmailSubscribe from "./emailsubscribe/EmailSubscribe";
+import PricingCard from "./pricing-cards/PricingCard";
 
 function App() {
   return (
     <>
-      <EmailSubscribe />
+      {/* <EmailSubscribe /> */}
+      <PricingCard />
     </>
   );
 }
